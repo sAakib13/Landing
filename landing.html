@@ -30,7 +30,13 @@
         <div
           class="w-full relative flex justify-between lg:w-auto lg:static lg:justify-between"
         >
-        <img src="./assets/img/logo.png" class="mr-4" height="40" width="40" alt="">
+          <img
+            src="./assets/img/logo.png"
+            class="mr-4"
+            height="40"
+            width="40"
+            alt=""
+          />
           <a
             class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
@@ -99,9 +105,7 @@
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style="
-            background-image: url('./assets/img/ime-life.png');
-          "
+          style="background-image: url('./assets/img/ime-life.png')"
         >
           <span
             id="blackOverlay"
@@ -292,14 +296,21 @@
     <div id="fb-root"></div>
 
     <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat" theme_color="#E1002A" logged_in_greeting="Hi, I'm IME Insurance, How can we help?" logged_out_greeting="You are logged out."></div>
-    
+    <div
+      id="fb-customer-chat"
+      class="fb-customerchat"
+      theme_color="#E1002A"
+      logged_in_greeting="Hi, I'm IME Insurance, How can we help?"
+      logged_out_greeting="You are logged out."
+      greeting_dialog_display="icon"
+    ></div>
+
     <script>
       var chatbox = document.getElementById("fb-customer-chat");
       chatbox.setAttribute("page_id", "148434565031183");
       chatbox.setAttribute("attribution", "biz_inbox");
     </script>
-    
+
     <!-- Your SDK code -->
     <script>
       window.fbAsyncInit = function () {
@@ -308,7 +319,7 @@
           version: "v19.0",
         });
       };
-    
+
       (function (d, s, id) {
         var js,
           fjs = d.getElementsByTagName(s)[0];
@@ -319,13 +330,11 @@
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "facebook-jssdk");
     </script>
-    
-    </body>
-    <script>
-      function toggleNavbar(collapseID) {
-        document.getElementById(collapseID).classList.toggle("hidden");
-        document.getElementById(collapseID).classList.toggle("block");
-      }
-    </script>
-    
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
 </html>
