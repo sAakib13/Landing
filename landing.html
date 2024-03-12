@@ -18,24 +18,25 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
     />
-    <title>Landing | Tailwind Starter Kit by Creative Tim</title>
+    <title>IME Life Insurance</title>
   </head>
   <body class="text-gray-800 antialiased">
-
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 "
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3"
     >
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
       >
         <div
-          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:justify-between"
         >
+        <img src="./assets/img/logo.png" class="mr-4" height="40" width="40" alt="">
           <a
             class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
             href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >Tailwind Starter Kit</a
-          ><button
+            >IME Life Insurance</a
+          >
+          <button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
             onclick="toggleNavbar('example-collapse-navbar')"
@@ -47,25 +48,13 @@
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
           id="example-collapse-navbar"
         >
-          <ul class="flex flex-col lg:flex-row list-none mr-auto">
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"
-                ></i>
-                Docs</a
-              >
-            </li>
-          </ul>
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Share</span></a
               >
@@ -75,7 +64,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Tweet</span></a
               >
@@ -85,16 +74,16 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
+                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Star</span></a
               >
             </li>
             <li class="flex items-center">
               <button
-                class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                class="bg-red-400 text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                 type="button"
-                style="transition: all 0.15s ease 0s;"
+                style="transition: all 0.15s ease 0s"
               >
                 <i class="fas fa-arrow-alt-circle-down"></i> Download
               </button>
@@ -106,11 +95,13 @@
     <main>
       <div
         class="relative pt-16 pb-32 flex content-center items-center justify-center"
-        style="min-height: 75vh;"
+        style="min-height: 75vh"
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'
+          style="
+            background-image: url('./assets/img/ime-life.png');
+          "
         >
           <span
             id="blackOverlay"
@@ -125,9 +116,7 @@
                   Your story starts with us.
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  This is a simple example of a Landing Page you can build using
-                  Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                  This is a simple example.
                 </p>
               </div>
             </div>
@@ -135,7 +124,7 @@
         </div>
         <div
           class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
+          style="height: 70px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -256,7 +245,7 @@
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 583 95"
                     class="absolute left-0 w-full block"
-                    style="height: 95px; top: -94px;"
+                    style="height: 95px; top: -94px"
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
@@ -280,7 +269,7 @@
       <section class="relative py-20">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
+          style="height: 80px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -386,7 +375,7 @@
                   alt="..."
                   src="./assets/img/team-1-800x800.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Ryan Tompson</h5>
@@ -420,7 +409,7 @@
                   alt="..."
                   src="./assets/img/team-2-800x800.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Romina Hadid</h5>
@@ -449,7 +438,7 @@
                   alt="..."
                   src="./assets/img/team-3-800x800.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Alexa Smith</h5>
@@ -483,7 +472,7 @@
                   alt="..."
                   src="./assets/img/team-4-470x470.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px;"
+                  style="max-width: 120px"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Jenna Kardi</h5>
@@ -522,7 +511,7 @@
       <section class="pb-20 relative block bg-gray-900">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
+          style="height: 80px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -615,7 +604,7 @@
                       type="text"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <div class="relative w-full mb-3">
@@ -627,7 +616,7 @@
                       type="email"
                       class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                       placeholder="Email"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     />
                   </div>
                   <div class="relative w-full mb-3">
@@ -646,7 +635,7 @@
                     <button
                       class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                       type="button"
-                      style="transition: all 0.15s ease 0s;"
+                      style="transition: all 0.15s ease 0s"
                     >
                       Send Message
                     </button>
@@ -661,7 +650,7 @@
     <footer class="relative bg-gray-300 pt-8 pb-6">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-        style="height: 80px;"
+        style="height: 80px"
       >
         <svg
           class="absolute bottom-0 overflow-hidden"
@@ -803,37 +792,37 @@
         </div>
       </div>
     </footer>
-<!-- Messenger Chat Plugin Code -->
-<div id="fb-root"></div>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
 
-<!-- Your Chat Plugin code -->
-<div id="fb-customer-chat" class="fb-customerchat">
-</div>
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "148434565031183");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "148434565031183");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
 
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v19.0'
-    });
-  };
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v19.0",
+        });
+      };
 
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
   </body>
   <script>
     function toggleNavbar(collapseID) {
